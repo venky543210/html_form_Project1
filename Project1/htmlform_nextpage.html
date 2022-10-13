@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Eligible for Loan</title>
+        <style>
+            body{
+                background-color:cadetblue;;
+            }
+            h1{background-color: aliceblue;color:cadetblue;text-align: center;}
+            h3{color:darkgreen;text-align: center;background-color: aliceblue;}
+            h4{color:antiquewhite}
+            p{background-color: aliceblue;}
+            
+        </style>
+        
+    </head>
+    <body>
+       <a href = "https://www.hdfcbank.com/" target = "_blank"><img src = "hdfc.png" width="250px" height="50px"></a> <br>
+       <a href = "https://www.hdfcbank.com/" target = "_blank"><img src = "banner.webp" width ="1380px" height="320px"></a> 
+        
+        <h3>Congratulations,You are eligible for loan amount of Rs.10,XX,XX,XXX/-</h3><br><br>
+        <a href = "htmlform_Loaneligbiltycheck.html" target="_blank">>>Click here to prev page</a><br><br>
+        <h4>To proceed with your loan Application,Kindly upload the following documents</h4>
+        
+        <form>
+            <label>If employed,<br> upload the paylsips<br> of last 3 months here</label><br><br>
+            <input type="file" name = fileupload><br><br><br><br>
+            <label>Upload Photo(JPG below 5mb)</label><br><br>
+            <input type = "file" name = "photo"><br><br><br><br>
+            <label>Upload Digital Sign</label><br><br>
+            <input type = "file" name  = "sign"><br><br>
+            <input type = "checkbox" name = terms>
+            <label><b>Accept all Terms and Conditions*</b></label>
+            <p><B>Terms and Conditions agreement is the agreement where you inform the users of your website about the rules,
+                  terms and guidelines that they need to follow in order to use and access your website,
+                  a Terms and Conditions agreement has become extremely important.</B>
+            </p><br><br><br>  
+            <center> <button type = "button" onclick="clickme()">Submit the Request</button></center
+            <center> <a href ="htmlform_Loaneligbiltycheck.html" target = "_blank" > <button type = "button">Goto Prev Page</button></a></center
+        </form>
+        <script>
+            function clickme(){
+               alert("Application Submitted Succesfully,Ref Id send to email")
+            }
+        </script>
+    </body>
+</html>
